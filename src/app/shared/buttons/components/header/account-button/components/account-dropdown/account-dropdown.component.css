@@ -1,0 +1,81 @@
+.dropdown {
+    position: relative;
+}
+
+.dropdown-button {
+    /* Aquí puedes agregar estilos específicos para el botón */
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%; /* Aparece justo debajo del botón */
+    left: -490%; /* Alineado al borde izquierdo del contenedor */
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
+    list-style: none;
+    padding: 10px 0 0 0;
+    margin: 0;
+    z-index: 1000; /* Para superponer otros elementos */
+    border-radius: 20px;
+    width: 300px; /* Tamaño fijo o adaptativo */
+    background: linear-gradient(to bottom, var(--tertiary) 36%, var(--quinary) 36%);
+}
+
+.dropdown-menu.open {
+    display: block; /* Mostrar el menú cuando se active */
+}
+
+.dropdown-user-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 0;
+    gap: 1rem;
+}
+
+.user-nickname {
+    color: var(--quinary);
+    font-weight: 500;
+}
+
+.user-avatar {
+    width: 80px;
+    border-radius: 60px;
+    border: 2px solid var(--quinary);
+}
+
+.dropdown-options {
+    background-color: var(--quinary);
+    margin: 0;
+    padding: 0;
+    border-radius: 20px;
+    list-style: none;
+}
+
+.dropdown-option {
+    display: flex;
+    align-items: center;
+    padding-left: 0.5rem;
+}
+
+.dropdown-option a {
+    padding: 0.7rem 0.5rem;
+    text-decoration: none;
+    color: var(--primary);
+    display: block;
+    font-size: 90%;
+}
+
+.dropdown-option a:hover {
+    font-weight: 500;
+}
+
+.dropdown-option:hover {
+    background-color: var(--quaternary);
+}
+
+.logout{
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 0.5rem 0.5rem 0.5rem;
+}

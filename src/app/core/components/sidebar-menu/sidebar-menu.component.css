@@ -1,0 +1,8 @@
+/* Estilos principales del sidebar */
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  height: 97%;
+  margin: 0.5rem;
+  gap: 0.5rem;
+}

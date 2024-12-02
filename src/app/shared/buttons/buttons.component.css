@@ -1,0 +1,23 @@
+.btn-hd, .btn-sb{
+    display: flex;
+    margin: 3px;
+    padding: 3px 4px;
+    align-items: center;
+    border: none;
+    background-color: transparent;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+.btn-hd svg, .btn-sb svg{
+    padding: 3px;
+    color: var(--primary);
+    border-radius: 20px;
+    transition: transform 0.3s ease, background-color 0.3s ease; 
+}
+
+.btn-hd:hover svg, .btn-sb:hover svg{
+    transform: scale(1.1); 
+    background-color: var(--quaternary) 
+}

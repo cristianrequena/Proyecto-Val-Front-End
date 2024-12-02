@@ -1,0 +1,14 @@
+<div class="home">
+    <div class="date-section">
+        <h2 class="title">Apodo familia</h2>
+        <p class="current-date">{{ today }}</p>
+    </div>
+    <div class="events-list">
+        <div class="events-title">
+            <h3>Proximos eventos</h3>
+            <div>Listado de eventos</div>
+        </div>
+        <mat-calendar class="calendar" [(selected)]="selected"></mat-calendar>
+    </div>
+</div>
+      

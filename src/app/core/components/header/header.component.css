@@ -1,0 +1,26 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    flex-grow: 1; 
+    gap: 2rem;
+}
+
+.search-bar-desk {
+    flex-grow: 1; 
+}
+
+.search-bar-mob{
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .search-bar-desk {
+        display: none;
+    }
+}

@@ -1,1 +1,25 @@
-/* You can add global styles to this file, and also import other style files */
+/*Botones*/
+@import '../src/app/shared/buttons/buttons.component.css';
+
+
+:root {
+    /*Color Interfaz y temas*/
+    --primary: #005187;
+    --secondary: #4d82bc;
+    --tertiary: #84b6f4;
+    --quaternary: #c4dafa;
+    --quinary: #f8fbff;
+    --danger: #ff2d2d;
+}
+
+html, body { 
+    height: 100%;
+    color: var(--primary);
+}
+
+body { 
+    max-width: 2000px;
+    margin: auto; 
+    font-family: Roboto, "Helvetica Neue", sans-serif; 
+    background-color: var(--quinary);
+}

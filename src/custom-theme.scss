@@ -1,0 +1,42 @@
+
+@use '@angular/material' as mat;
+@include mat.core();
+
+// Define the theme object.
+$Front-End-theme: mat.define-theme((
+  color: (
+    theme-type: light,
+    primary: mat.$azure-palette,
+    tertiary: mat.$blue-palette,
+  ),
+  density: (
+    scale: 0,
+  )
+));
+
+
+:root {
+  //Calendario
+  @include mat.all-component-themes($Front-End-theme);
+  @include mat.datepicker-overrides((
+    calendar-date-today-outline-color: var(--primary),  //contorno dia actual
+    calendar-date-selected-state-text-color: var(--quaternary),
+    calendar-date-selected-state-background-color: var(--secondary),
+    calendar-date-hover-state-background-color:var(--quaternary),
+    calendar-header-text-color: var(--primary), //lunes, martes miercoles.....
+    calendar-date-disabled-state-text-color: none, //color dia deshabilitados
+    calendar-body-label-text-color: var(--primary), // Mes
+    calendar-period-button-icon-color: var(--primary),  // Flecha
+    calendar-period-button-text-color: var(--primary), // Mes y Año
+    calendar-date-text-color: var(--primary),  // Dias
+    calendar-navigation-button-icon-color: red,
+  ));
+
+  .mat-calendar-controls{
+    margin:0;
+}
+  .mat-calendar-arrow{
+    display: none;
+  }
+}
+
