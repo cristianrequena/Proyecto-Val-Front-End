@@ -2,27 +2,26 @@
     position: relative;
 }
 
-.dropdown-button {
-    /* Aquí puedes agregar estilos específicos para el botón */
-}
+/*.dropdown-button {
+}*/
 
 .dropdown-menu {
     display: none;
     position: absolute;
-    top: 100%; /* Aparece justo debajo del botón */
-    left: -490%; /* Alineado al borde izquierdo del contenedor */
+    top: 100%;
+    left: -490%; 
     box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
     list-style: none;
     padding: 10px 0 0 0;
     margin: 0;
-    z-index: 1000; /* Para superponer otros elementos */
+    z-index: 1000;
     border-radius: 20px;
-    width: 300px; /* Tamaño fijo o adaptativo */
+    width: 300px;
     background: linear-gradient(to bottom, var(--tertiary) 36%, var(--quinary) 36%);
 }
 
 .dropdown-menu.open {
-    display: block; /* Mostrar el menú cuando se active */
+    display: block;
 }
 
 .dropdown-user-info {

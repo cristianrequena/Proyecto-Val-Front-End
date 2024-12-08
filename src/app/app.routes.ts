@@ -21,5 +21,5 @@ export const routes: Routes = [
        // canActivate:[redirectGuard]
     },
 
-    { path: '**', redirectTo: 'welcome' }
+    { path: '**', redirectTo: 'home' }
 ];

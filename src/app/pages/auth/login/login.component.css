@@ -1,0 +1,62 @@
+.login-container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+  
+  .login-title {
+
+  }
+  
+  .login-box {
+    
+  }
+  
+  .login-subtitle {
+  
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .form-group {
+   
+  }
+  
+  label {
+    
+  }
+  
+  input {
+    
+  }
+  
+  .login-button {
+    
+    transition: background-color 0.3s ease;
+  }
+  
+  .login-button:hover {
+    
+  }
+  
+  .login-options {
+
+  }
+  
+  .forgot-password,
+  .register-link {
+    
+  }
+  
+  .forgot-password:hover,
+  .register-link:hover {
+    text-decoration: underline;
+  }
+  
