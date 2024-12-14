@@ -12,6 +12,7 @@
   .register-title {
     justify-content: flex-start;
     text-align: center;
+    margin: 1rem 0 0 0;
   }
   
   .register-box {
